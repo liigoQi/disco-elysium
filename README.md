@@ -54,35 +54,23 @@
 
 ## 安装
 
-在 Claude Code 的 `settings.json` 中添加：
+### 方式一：从 GitHub 克隆（最常用）
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "disco-elysium": {
-      "source": {
-        "source": "github",
-        "owner": "你的GitHub用户名",
-        "repo": "disco-elysium"
-      }
-    }
-  }
-}
+```bash
+git clone https://github.com/liigoQi/disco-elysium ~/.claude/plugins/disco-elysium
 ```
 
-或者使用本地目录：
+### 方式二：指定本地路径（开发调试用）
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "disco-elysium-local": {
-      "source": {
-        "source": "directory",
-        "path": "/path/to/disco-elysium"
-      }
-    }
-  }
-}
+```bash
+claude --plugin-dir /path/to/disco-elysium
+```
+
+### 方式三：在 Plugin 项目目录中直接使用
+
+```bash
+cd disco-elysium
+claude --plugin-dir .
 ```
 
 ---
