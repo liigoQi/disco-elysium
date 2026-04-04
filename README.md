@@ -60,13 +60,7 @@
 git clone https://github.com/liigoQi/disco-elysium ~/.claude/plugins/disco-elysium
 ```
 
-### 方式二：指定本地路径（开发调试用）
-
-```bash
-claude --plugin-dir /path/to/disco-elysium
-```
-
-### 方式三：在 Plugin 项目目录中直接使用
+### 方式二：在 Plugin 项目目录中直接使用
 
 ```bash
 cd disco-elysium
