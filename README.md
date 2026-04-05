@@ -56,20 +56,22 @@
 
 ### 方式一：从 Marketplace 安装（推荐）
 
-1. 添加市场：
+1. 添加市场（使用 HTTPS URL，避免 SSH 认证问题）：
    ```bash
-   /plugin marketplace add liigoQi/disco-elysium
+   /plugin marketplace add https://github.com/liigoQi/disco-elysium.git
    ```
 
 2. 安装插件：
    ```bash
-   /plugin install disco-elysium@liigoQi-disco-elysium
+   /plugin install disco-elysium@disco-elysium-marketplace
    ```
 
 3. 重载插件：
    ```bash
    /reload-plugins
    ```
+
+> **注意**：如果使用 `liigoQi/disco-elysium` 简写格式遇到 SSH 认证错误，请改用完整的 HTTPS URL。
 
 ### 方式二：从 GitHub 克隆
 
