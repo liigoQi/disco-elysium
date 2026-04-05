@@ -56,7 +56,7 @@
 
 ### 方式一：从 Marketplace 安装（推荐）
 
-1. 添加市场（使用 HTTPS URL，避免 SSH 认证问题）：
+1. 添加市场：
    ```bash
    /plugin marketplace add https://github.com/liigoQi/disco-elysium.git
    ```
@@ -71,15 +71,7 @@
    /reload-plugins
    ```
 
-> **注意**：如果使用 `liigoQi/disco-elysium` 简写格式遇到 SSH 认证错误，请改用完整的 HTTPS URL。
-
-### 方式二：从 GitHub 克隆
-
-```bash
-git clone https://github.com/liigoQi/disco-elysium ~/.claude/plugins/disco-elysium
-```
-
-### 方式三：在 Plugin 项目目录中直接使用
+### 方式二：在 Plugin 项目目录中直接使用
 
 ```bash
 cd disco-elysium
