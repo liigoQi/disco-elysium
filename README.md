@@ -54,13 +54,30 @@
 
 ## 安装
 
-### 方式一：从 GitHub 克隆（最常用）
+### 方式一：从 Marketplace 安装（推荐）
+
+1. 添加市场：
+   ```bash
+   /plugin marketplace add liigoQi/disco-elysium
+   ```
+
+2. 安装插件：
+   ```bash
+   /plugin install disco-elysium@liigoQi-disco-elysium
+   ```
+
+3. 重载插件：
+   ```bash
+   /reload-plugins
+   ```
+
+### 方式二：从 GitHub 克隆
 
 ```bash
 git clone https://github.com/liigoQi/disco-elysium ~/.claude/plugins/disco-elysium
 ```
 
-### 方式二：在 Plugin 项目目录中直接使用
+### 方式三：在 Plugin 项目目录中直接使用
 
 ```bash
 cd disco-elysium
