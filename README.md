@@ -1,6 +1,6 @@
 # Disco Elysium Plugin
 
-极乐迪斯科风格的 Claude Code 技能系统。24个独特的思维技能，在你的对话中苏醒。
+极乐迪斯科风格的 AI Agent 技能系统。24个独特的思维技能，在你的对话中苏醒。已适配 Claude Code、Codex、Cursor。
 
 ## 功能介绍
 
@@ -52,14 +52,7 @@
 | 能工巧匠 | 通万千机械，攻破重重封锁 | `/disco-elysium:interfacing` |
 | 从容自若 | 挺直腰杆做人，从容应对风浪 | `/disco-elysium:composure` |
 
-## 多平台支持
 
-本插件已适配以下平台（由社区贡献）：
-
-| 平台 | 目录 | 安装说明 |
-|------|------|----------|
-| Cursor | [cursor-skills/](cursor-skills/) | [README](cursor-skills/README.md) |
-| OpenAI Codex | [codex-skills/](codex-skills/) | [README](codex-skills/README.md) |
 
 ## 安装
 
@@ -82,12 +75,21 @@
    /reload-plugins
    ```
 
-### 方式二：在 Plugin 项目目录中直接使用
+#### 方式二：在 Plugin 项目目录中直接使用
 
 ```bash
 cd disco-elysium
 claude --plugin-dir .
 ```
+
+### 多平台支持
+
+本插件已适配以下平台（由 @shoushouo 贡献）：
+
+| 平台 | 目录 | 安装说明 |
+|------|------|----------|
+| Cursor | [cursor-skills/](cursor-skills/) | [README](cursor-skills/README.md) |
+| OpenAI Codex | [codex-skills/](codex-skills/) | [README](codex-skills/README.md) |
 
 ---
 
