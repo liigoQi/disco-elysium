@@ -84,7 +84,7 @@ claude --plugin-dir .
 
 ### 多平台支持
 
-本插件已适配以下平台（由 @shoushouo 贡献）：
+本插件已适配以下平台（由 [@shoushouo](https://github.com/shoushouo) 贡献）：
 
 | 平台 | 目录 | 安装说明 |
 |------|------|----------|
