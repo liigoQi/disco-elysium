@@ -52,9 +52,20 @@
 | 能工巧匠 | 通万千机械，攻破重重封锁 | `/disco-elysium:interfacing` |
 | 从容自若 | 挺直腰杆做人，从容应对风浪 | `/disco-elysium:composure` |
 
+## 多平台支持
+
+本插件已适配以下平台（由社区贡献）：
+
+| 平台 | 目录 | 安装说明 |
+|------|------|----------|
+| Cursor | [cursor-skills/](cursor-skills/) | [README](cursor-skills/README.md) |
+| OpenAI Codex | [codex-skills/](codex-skills/) | [README](codex-skills/README.md) |
+
 ## 安装
 
-### 方式一：从 Marketplace 安装（推荐）
+### Claude Code
+
+#### 方式一：从 Marketplace 安装（推荐）
 
 1. 添加市场：
    ```bash
